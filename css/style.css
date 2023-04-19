@@ -1,0 +1,249 @@
+/* NAVIGASI */
+#main-navbar a {
+    border-bottom: 5px solid #f0efef;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#main-navbar a:hover, #main-navbar .active {
+    border-bottom-color: rgb(41, 199, 10);
+    transition: border-color 500ms;
+}
+
+#main-navbar .navbar-brand {
+    border-bottom:hidden;
+}
+
+
+/* SHOWCASE */
+#showcase {
+    background: url('../img/banner2.jpg');
+    height: 600px;
+    padding-top: 150px;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+/*Tombol Chat WhatsApp*/
+.tiga{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 130px;
+    /* display: none; */
+    z-index: 9999}
+.tiganama{position:fixed;
+    bottom: 35px;
+    right: 90px;
+    width: 50px;
+    height: 105px;
+    z-index: 9999}
+.tiga2{position:fixed;
+    bottom: 20px;
+    right: 85px;
+    width: 50px;
+    height: 105px;
+    z-index: 9999}
+.tigaon{position:fixed;
+    bottom: 20px;
+    right: 85px;
+    width: 50px;
+    height: 105px;
+    z-index: 9999}
+.fixed-whatsapp4{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 60px;
+    z-index: 9999}
+.tiga:before{content:"";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+.tiganama:before{content:"Admin_2";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.tiga2:before{content:"Offline";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.tigaon:before{content:"Online";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.fixed-whatsapp4:before{content:"Admin_3";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+/* .fixed-whatsapp3:after{content:"Hallo kakak, chat Aku di sini yah!";width:100px;padding:5px 10px;position:absolute;bottom:100%;margin-bottom:10px;right:-150px;text-align:right;color:#555;border:1px solid #dedede;background:rgba(255,255,255,.5);border-radius:4px;opacity:0;transition:all .4s ease-in-out;font-size:90%;line-height:1.1} */
+.fixed-whatsapp4:hover:after{opacity:1;right:0}
+/* .fixed-whatsapp{position:fixed;bottom:20px;right:20px;width:50px;height:50px;z-index:9999} */
+.clientoff{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 60px;
+    z-index: 9999}
+.clientoff2{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 0px;
+    z-index: 9999}
+.clienton{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 0px;
+    z-index: 9999}
+.fixed-whatsapp3{position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 60px;
+    z-index: 9999}
+.clientoff:before{content:"Admin_3";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+.clientoff2:before{content:"Offline";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.clienton:before{content:"Online";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.fixed-whatsapp3:before{content:"Admin_3";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+/* .fixed-whatsapp3:after{content:"Hallo kakak, chat Aku di sini yah!";width:100px;padding:5px 10px;position:absolute;bottom:100%;margin-bottom:10px;right:-150px;text-align:right;color:#555;border:1px solid #dedede;background:rgba(255,255,255,.5);border-radius:4px;opacity:0;transition:all .4s ease-in-out;font-size:90%;line-height:1.1} */
+.fixed-whatsapp3:hover:after{opacity:1;right:0}
+
+.stafoff{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    right: 20px;
+    width:50%;
+    height:60px;
+    z-index:9999}
+.stafoff2{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    right: 20px;
+    width:86%;
+    height:0px;
+    z-index:9999}
+.stafon{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    right: 20px;
+    width:86%;
+    height:0px;
+    z-index:9999}
+.fixed-whatsapp2{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    right: 20px;
+    width:50%;
+    height:60px;
+    z-index:9999}
+.stafoff:before{content:"Admin_2";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+.stafoff2:before{content:"Offline";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.stafon:before{content:"Online";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.fixed-whatsapp2:before{content:"Admin_2";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+/* .fixed-whatsapp2:after{content:"Hallo kakak, chat Aku di sini yah!";width:100px;padding:5px 10px;position:absolute;bottom:100%;margin-bottom:10px;right:-150px;text-align:right;color:#555;border:1px solid #dedede;background:rgba(255,255,255,.5);border-radius:4px;opacity:0;transition:all .4s ease-in-out;font-size:90%;line-height:1.1} */
+.fixed-whatsapp2:hover:after{opacity:1;right:0}
+
+.adminoff{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    left: 20px;
+    width:50px;
+    height:60px;
+    z-index:9999}
+.adminoff2{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    left: 20px;
+    width:50px;
+    height:0px;
+    z-index:9999}
+.adminon{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    left: 20px;
+    width:50px;
+    height:0px;
+    z-index:9999}
+.fixed-whatsapp{position:fixed;
+    bottom:20px;
+    /* left:20px; */
+    left: 20px;
+    width:50px;
+    height:60px;
+    z-index:9999}
+.adminoff:before{content:"Admin_1";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+.adminoff2:before{content:"Offline";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.adminon:before{content:"Online";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;}
+.fixed-whatsapp:before{content:"Admin_1";padding-top: 45px;background-repeat:no-repeat;background-size:34px 34px;background-position:center center;width:50px;height:50px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='32' height='32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-color:#00C853;position:absolute;top:0;left:0;border-radius:100%;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24)}
+/* .fixed-whatsapp:after{content:"Hallo kakak, chat Aku di sini yah!";width:100px;padding:5px 10px;position:absolute;bottom:100%;margin-bottom:10px;left:-150px;text-align:right;color:#555;border:1px solid #dedede;background:rgba(255,255,255,.5);border-radius:4px;opacity:0;transition:all .4s ease-in-out;font-size:90%;line-height:1.1} */
+.fixed-whatsapp:hover:after{opacity:1;left:0}
+.waku {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+}
+
+@media screen and (max-width: 767px) {
+    #showcase { 
+    background: url('../img/banner2.jpg');
+    background-position-y: 70px;
+    background-position-x: -60;
+    
+    height: 600px;
+    /* padding-top: 200px; */
+    background-size: 800px;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+     }  /* show it on small screens */
+     #showcase h1 { 
+        padding-top: 250px;
+         }  /* show it on small screens */
+     .dark-overlay {
+            background-color: rgba(0, 0, 0, 0.24);
+            position:absolute ;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 600px;
+        }
+        #menu .container {
+            margin-top: 50px;
+        }
+        /* #services .container {
+            margin-top: 150px;
+        }
+        #galery .container {
+            margin-top: 150px;
+        } */
+        #showoff-2 {
+            margin-bottom: -50px;
+        }
+        #services-2 {
+            margin-bottom: -50px;
+        }
+    }
+
+  @media screen and (min-width: 768px) {
+    #showcase h1 { 
+    padding-top: 250px;
+     }  /* show it on small screens */
+     .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 600px;
+    }
+    .navbar-brand p {
+        display: none;
+    }
+  }
+
+/* #showcase h1 {
+    padding-top: 250px;
+} */
+
+/* .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+} */
+
+/* PRODUCT */
+#product i[class^="bi"] {
+    font-size: 4rem;
+}
+
